@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Pareng Dwight'),
+      home: const MyHomePage(title: 'Papa Dwight'),
     );
   }
 }
@@ -31,7 +31,12 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(title),
       ),
-      body: Center(child: Text('Hello, OOP!', style: TextStyle(fontSize: 24))),
+      body: Center(
+        child: Text(
+          'Hello, OOP! This is our feature branch.',
+          style: TextStyle(fontSize: 24),
+        ),
+      ),
     );
   }
 }
